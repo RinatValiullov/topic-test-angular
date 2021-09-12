@@ -8,6 +8,7 @@ import { ContainerTodoComponent } from './container-todo/container-todo.componen
 import { ContentTodoComponent } from './content-todo/content-todo.component';
 import { ContentTodoHeaderComponent } from './content-todo-header/content-todo-header.component';
 import { ContentTodoOkrComponent } from './content-todo-okr/content-todo-okr.component';
+import { ContentTodoStatusComponent } from './content-todo-status/content-todo-status.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ContentTodoOkrComponent } from './content-todo-okr/content-todo-okr.com
     ContainerTodoComponent,
     ContentTodoComponent,
     ContentTodoHeaderComponent,
-    ContentTodoOkrComponent
+    ContentTodoOkrComponent,
+    ContentTodoStatusComponent
   ],
   imports: [
     BrowserModule,

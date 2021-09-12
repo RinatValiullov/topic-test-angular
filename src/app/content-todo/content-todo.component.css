@@ -4,6 +4,6 @@ main {
   margin-bottom: 1.25rem;
 }
 
-section {
+.content-container {
   display: flex;
 }

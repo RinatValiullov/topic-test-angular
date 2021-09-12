@@ -1,0 +1,10 @@
+.statuses {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.status {
+  background-color: #fff;
+  padding: 10px 25px;
+}
