@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  --bg-color: rgba(241, 245, 247, 1);
+  --bg-ontrack: rgba(242, 247, 218, 1);
+  --bg-offtrack: rgba(255, 230, 235, 1);
+  --bg-help: rgba(33, 33, 50, 0.1);
+  --bg-pagination: rgba(227, 234, 238, 1);
+  --text-color: rgba(33, 33, 50, 1);
+}
+
+html {
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'PT Sans', sans-serif;
+  line-height: 1.5;
+  height: inherit;
+  margin: 0;
+}
