@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+  margin-bottom: 5px;
+  padding: 1rem;
+}
+
+.container-okr {
+  align-items: center;
+  background-color: rgba(241, 245, 247, 1);
+  border-radius: 100px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  width: 125px;
+}
+
+.container-okr_title {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.container-okr_controls {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-okr_controls span,
+.container-status_controls span {
+  height: 8px;
+}
+
+.container-status {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  width: 125px;
+}
+
+.container-status_controls {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-status_icon span {
+  vertical-align: middle;
+}
+
+.container-okr_controls,
+.container-status_controls {
+  height: inherit;
+}
