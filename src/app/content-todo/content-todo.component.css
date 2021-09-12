@@ -1,5 +1,9 @@
 main {
-  background-color: rgba(255, 255, 255, 1);
+  /* background-color: rgba(255, 255, 255, 1); */
   color: rgba(62, 95, 114, 1);
   margin-bottom: 1.25rem;
+}
+
+section {
+  display: flex;
 }

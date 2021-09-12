@@ -7,13 +7,15 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { ContainerTodoComponent } from './container-todo/container-todo.component';
 import { ContentTodoComponent } from './content-todo/content-todo.component';
 import { ContentTodoHeaderComponent } from './content-todo-header/content-todo-header.component';
+import { ContentTodoOkrComponent } from './content-todo-okr/content-todo-okr.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContainerTodoComponent,
     ContentTodoComponent,
-    ContentTodoHeaderComponent
+    ContentTodoHeaderComponent,
+    ContentTodoOkrComponent
   ],
   imports: [
     BrowserModule,

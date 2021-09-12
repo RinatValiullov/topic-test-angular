@@ -1,0 +1,20 @@
+.tasks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.task {
+  align-items: flex-start;
+  background-color: #fff;
+  display: flex;
+  padding: 10px 25px;
+}
+
+.task:not(:last-of-type) {
+  margin-bottom: 5px;
+}
+
+.task span {
+  margin-right: 15px;
+}
