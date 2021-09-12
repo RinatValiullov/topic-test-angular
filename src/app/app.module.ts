@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { ContainerTodoComponent } from './container-todo/container-todo.component';
+import { ContentTodoComponent } from './content-todo/content-todo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ContainerTodoComponent
+    ContainerTodoComponent,
+    ContentTodoComponent
   ],
   imports: [
     BrowserModule,
