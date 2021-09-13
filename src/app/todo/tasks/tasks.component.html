@@ -1,0 +1,23 @@
+<section class="container">
+  <ul class="tasks">
+
+    <li *ngFor="let task of tasks" class="task">
+
+      <div class="task__descr">
+        <span class="material-icons icon" style="color: #7397AB">
+          flag
+        </span>
+        <span class="descr">{{ task.descr }}</span>
+      </div>
+
+      <div class="task__label">
+        <div class="label" [style.background-color]="task.color?.bg">
+          <span class="label__circle" [style.background-color]="task.color?.tag"></span>
+          <span class="label__text">{{ task.status }}</span>
+        </div>
+      </div>
+
+    </li>
+
+  </ul>
+</section>

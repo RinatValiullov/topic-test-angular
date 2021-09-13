@@ -6,10 +6,10 @@ import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { ContainerTodoComponent } from './container-todo/container-todo.component';
 import { TodoComponent } from './todo/todo.component';
-import { HeaderComponent } from './header/header.component';
+import { HeaderComponent } from './todo/header/header.component';
 // import { ContentTodoOkrComponent } from './content-todo-okr/content-todo-okr.component';
 // import { ContentTodoStatusComponent } from './content-todo-status/content-todo-status.component';
-import { TasksComponent } from './tasks/tasks.component';
+import { TasksComponent } from './todo/tasks/tasks.component';
 
 @NgModule({
   declarations: [
