@@ -5,19 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { ContainerTodoComponent } from './container-todo/container-todo.component';
-import { ContentTodoComponent } from './content-todo/content-todo.component';
-import { ContentTodoHeaderComponent } from './content-todo-header/content-todo-header.component';
-import { ContentTodoOkrComponent } from './content-todo-okr/content-todo-okr.component';
-import { ContentTodoStatusComponent } from './content-todo-status/content-todo-status.component';
+import { TodoComponent } from './todo/todo.component';
+import { HeaderComponent } from './header/header.component';
+// import { ContentTodoOkrComponent } from './content-todo-okr/content-todo-okr.component';
+// import { ContentTodoStatusComponent } from './content-todo-status/content-todo-status.component';
+import { TasksComponent } from './tasks/tasks.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContainerTodoComponent,
-    ContentTodoComponent,
-    ContentTodoHeaderComponent,
-    ContentTodoOkrComponent,
-    ContentTodoStatusComponent
+    TodoComponent,
+    HeaderComponent,
+    TasksComponent
   ],
   imports: [
     BrowserModule,

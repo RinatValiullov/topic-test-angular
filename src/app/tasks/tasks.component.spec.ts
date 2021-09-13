@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ContentTodoHeaderComponent } from './content-todo-header.component';
+import { TasksComponent } from './tasks.component';
 
-describe('ContentTodoHeaderComponent', () => {
-  let component: ContentTodoHeaderComponent;
-  let fixture: ComponentFixture<ContentTodoHeaderComponent>;
+describe('TasksComponent', () => {
+  let component: TasksComponent;
+  let fixture: ComponentFixture<TasksComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ContentTodoHeaderComponent ]
+      declarations: [ TasksComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ContentTodoHeaderComponent);
+    fixture = TestBed.createComponent(TasksComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
