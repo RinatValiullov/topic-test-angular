@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { MatSelectModule } from '@angular/material/select';
 import { FormControl } from '@angular/forms';
 import { Task } from '../../task';
@@ -17,7 +17,7 @@ export class TasksComponent implements OnInit {
   page: number = 1;
   totalRecords: number = TASKS.length;
 
-  amount: Amount[] = [
+  @Input() amount: Amount[] = [
     { value: 5 },
     { value: 10 },
     { value: 15 }

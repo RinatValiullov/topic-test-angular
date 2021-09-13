@@ -35,9 +35,9 @@
 
     <div class="select">
       <div class="select__field">
-        <mat-form-field appearance="fill" class="mat-sel">
-          <mat-label>10</mat-label>
-          <mat-select>
+        <mat-form-field class="mat-sel">
+          <mat-label>amount</mat-label>
+          <mat-select disableRipple>
             <mat-option *ngFor="let number of amount" [value]="number.value">
               {{ number.value }}
             </mat-option>
