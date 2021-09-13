@@ -42,3 +42,36 @@
   margin-right: 15px;
   width: 16px;
 }
+
+.pagination-topic {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination-topic .select {
+  align-items: center;
+  display: flex;
+}
+
+.select__field {
+  margin-right: 25px;
+}
+
+.mat-sel {
+  width: 100px;
+}
+
+/* .pagination-topic label {
+  position: relative;
+}
+
+.pagination-topic label::after {
+  content: '▾';
+  font-size: 1.2rem;
+  height: 10px;
+  left: -25px;
+  position: absolute;
+  top: 0;
+  width: 10px;
+} */
